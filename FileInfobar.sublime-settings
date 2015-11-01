@@ -1,0 +1,44 @@
+{
+    // Key for the File Infobar field in the status bar.
+    // The fields are sorted alphabetically by key, so the position
+    // of the File Infobar field can be changed by modifying this key.
+    // See set_status() in sublimetext.com/docs/2/api_reference.html#sublime.View
+    "status_bar_key": "zFileInfobar",
+
+    // Format strings for rendering the date / time.
+    // Valid format codes are those recognised by strftime(), and also:
+    //    %e   Day of the month (range 1 to 31) without a leading 0
+    //    %l   Hour (12-hour clock: range 1 to 12) without a leading 0
+    //    %P   Lowercase "am" or "pm" (or a corresponding string for the current locale)
+    // See docs.python.org/2.6/library/datetime.html#datetime.datetime.strftime
+    "date_format_string": "%a %e %b %Y",
+    "time_format_string": "%l:%M:%S %P",
+
+    // Text indicating that the file was modified today / yesterday.
+    // This text can be localised into other languages.
+    "today":     "Today",
+    "yesterday": "Yesterday",
+
+
+    //----- Marker strings -----//
+
+    // On OS X (and possibly other platforms), coloured Unicode emoji
+    // in the Basic Multilingual Plane can be used. For example:
+    //    apps.timwhitlock.info/emoji/tables/unicode#block-2-dingbats
+    // These must be written as Unicode escape sequences. For example:
+    //    \u2733   fileformat.info/info/emoji/eight_spoked_asterisk/
+    //    \u2734   fileformat.info/info/emoji/eight_pointed_black_star/
+    //    \u27A1   fileformat.info/info/emoji/arrow_right/
+    //    \u27BF   fileformat.info/info/emoji/loop/
+    // Some of these may require the Emoji Variation Selector to be appended:
+    //    \uFE0F   unicode.org/reports/tr51/#def_emoji_variation_selector
+    // For example, to get the coloured Eight Spoked Asterisk emoji:
+    //    \u2733\uFE0F
+
+    // Start / end of the filepath.
+    "filepath_start_marker": "[[ ",
+    "filepath_end_marker":   " ]]",
+
+    // Symbolic link.
+    "symlink_marker": "-->"
+}
