@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "File Infobar: Toggle Relative Path",
+        "command": "file_infobar_toggle_relative_path"
+    }
+]
