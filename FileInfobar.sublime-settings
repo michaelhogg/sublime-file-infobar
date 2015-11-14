@@ -36,9 +36,9 @@
     //    \u2733\uFE0F
 
     // Start / end of the filepath.
-    "filepath_start_marker": "[[ ",
-    "filepath_end_marker":   " ]]",
+    "filepath_start_marker": "\u27BF\uFE0F\u2733\u2734 ",
+    "filepath_end_marker":   " \u2734\uFE0F\u2733\u27BF",
 
     // Symbolic link.
-    "symlink_marker": "-->"
+    "symlink_marker": "\u23E9"
 }
