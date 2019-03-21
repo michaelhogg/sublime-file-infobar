@@ -11,7 +11,7 @@ import sublime_plugin  # sublimetext.com/docs/2/api_reference.html#sublime_plugi
 
 
 # @type {bool}
-relativePathEnabled = False
+relativePathEnabled = True
 
 
 # Get the plugin's settings.
